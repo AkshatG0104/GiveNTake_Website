@@ -1,0 +1,13 @@
+{
+    "hoodies_jackets": [
+        {
+            "Title": "Bape Hoodie",
+            "Size": "L",
+            "Description": "1 year old, colour is a little faded however the condition is still very good",
+            "Seller": "John Snow",
+            "Price": 200,
+            "Percentage_For_Charity": 50,
+            "Image_File": "bape_hoodie.jpg"
+        }
+    ]
+}

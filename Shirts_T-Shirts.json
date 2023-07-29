@@ -1,0 +1,13 @@
+{
+    "shirt": [
+        {
+            "Title": "Adidas T-Shirt",
+            "Size": "XS",
+            "Description": "Old shirt, however has not been used much at all so in very good condition",
+            "Seller": "Omyaa M",
+            "Price": 40,
+            "Percentage_For_Charity": 100,
+            "Image_File": "adidas_tshirt.jpg"
+        }
+    ]
+}

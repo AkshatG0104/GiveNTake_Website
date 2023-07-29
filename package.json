@@ -1,0 +1,23 @@
+{
+  "name": "summative_2",
+  "version": "1.0.0",
+  "description": "GiveNTake Website",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "start": "nodemon server.js",
+    "test": "jest",
+    "pretest": "eslint ."
+  },
+  "author": "Akshat G",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.21",
+    "supertest": "^6.3.3"
+  }
+}

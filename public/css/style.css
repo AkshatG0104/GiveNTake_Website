@@ -1,0 +1,121 @@
+/* This is the part of the code for the navbar
+Reference from https://youtu.be/PgAZ8KzfhO8*/
+.navbarBegin{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    width: 250px;
+    cursor: pointer;
+  }
+  .navbarBegin ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbarBegin ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .navbarBegin ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #266263;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  .navbarBegin ul li:hover:after{
+    width: 100%;
+  }
+  /* This is the part of the code for the navbar*/
+
+/* #Sell_Description{
+    width: 110%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/DJ_Khaled_wardrobe.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+#Shoes_Container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/Jordan_Onfeet_Background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+p, h2,h4,h3{
+  color: whitesmoke;
+}
+form{
+  color: white;
+}
+#Image_File_Input_r2{
+  text-align: center;
+}
+#S_Full_Name,#Shoes_Title,#Shoes_Description,#Shoes_Size,#Shoes_Price,#Shoes_Percentage,#C_Full_Name,#Clothes_Title,#Clothes_Description,#Clothes_Select,#Clothes_Price,#Clothes_Percentage {
+  color: black;
+}
+#hoodie_container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/hoodie_background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#shirts_Container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/img/shirts.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#Buy_Body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.599)),url(/img/Supreme_Hoodie_Background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#Buy_Navbar,#Sell_Navbar{
+  color: whitesmoke;
+}
+.card{
+  background-color: black;
+}
+#sell_body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.599)),url(/img/DJ_Khaled_wardrobe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#cart_body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.539),rgba(0, 0, 0, 0.599)),url(/img/cart_img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#cart_navbar{
+  color: #ffffff;
+}
+.card-title{
+  color: gray;
+}
+
+#preview_input_container{
+  background-color: rgba(56, 95, 236, 0.484);
+}
+
+#preview_img{
+  width: 20rem;
+}

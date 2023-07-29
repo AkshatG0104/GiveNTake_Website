@@ -1,0 +1,22 @@
+{
+    "shoes": [
+        {
+            "Title": "Nike Jordan 1s",
+            "Size": "US 12",
+            "Description": "Good condition, Classic Midnight Blue Jordan 1s",
+            "Seller": "George Stephenson",
+            "Price": 110,
+            "Percentage_For_Charity": 20,
+            "Image_File": "Midnight_Blue_Jordans.jpg"
+        },
+        {
+            "Title": "Yeezy Slides",
+            "Size": "US 10",
+            "Description": "Slightly chipped on the right slide at the back, Yeezy Slides Adidas version 1",
+            "Seller": "Josephine Butler",
+            "Price": 60,
+            "Percentage_For_Charity": 15,
+            "Image_File": "Yeezy_Slides.jpg"
+        }
+    ]
+}
